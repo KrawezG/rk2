@@ -6,10 +6,10 @@
 <body>
 
 <?php
-$a==1;
-$c==0;
-$b==1;
-echo "<table border="1px">"
+$a=1;
+$c=0;
+$b=0;
+echo "<table border="1px">";
 while ( $a<=100 )
 {
 echo <tr>
@@ -27,6 +27,7 @@ $b=$b+1;
 $a=$a+1;
 echo "</tr>";
 }
+echo "</table>";
 ?>
 </body>
 </html>
